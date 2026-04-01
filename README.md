@@ -2,9 +2,9 @@
 
 &nbsp;&nbsp;&nbsp;[![Notion](https://img.shields.io/badge/Notion-설명%20바로가기-black?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/33345465d271804ebc4cd4f49a135509)
 
-•## 🕹️ FPGA Pong 프로젝트
+---
 
-### 📌 프로젝트 요약
+### 📌 FPGA Pong 프로젝트
 1972년 아타리 Pong의 하드웨어 설계 철학을 FPGA 상에서 재현한 디지털 시스템으로,  
 TTL 기반 아날로그 회로의 동작 원리를 Verilog로 복원하고  
 현대적인 디지털 구조를 적용하여 물리 엔진과 게임 로직을 확장한 프로젝트
