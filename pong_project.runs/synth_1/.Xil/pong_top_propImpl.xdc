@@ -1,0 +1,57 @@
+set_property SRC_FILE_INFO {cfile:/home/kimyujeong/pong_project/pong_project.srcs/constrs_1/imports/fpga/Basys-3-Master.xdc rfile:../../../pong_project.srcs/constrs_1/imports/fpga/Basys-3-Master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:163 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+set_property src_info {type:XDC file:1 line:168 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports rst_p]
+set_property src_info {type:XDC file:1 line:171 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {sw_start}]      ;# SW0 (게임 시작/일시정지)
+set_property src_info {type:XDC file:1 line:173 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports {sw_score_limit}];# SW2 (판수 선택)
+set_property src_info {type:XDC file:1 line:174 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U1    IOSTANDARD LVCMOS33 } [get_ports {predict_mode}]
+set_property src_info {type:XDC file:1 line:175 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T1    IOSTANDARD LVCMOS33 } [get_ports {sw_ai_en}]
+set_property src_info {type:XDC file:1 line:176 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R2   IOSTANDARD LVCMOS33 } [get_ports {sw_test}]        ;# SW15 (풀-화이트 화면 조정)
+set_property src_info {type:XDC file:1 line:179 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A14   IOSTANDARD LVCMOS33 } [get_ports {btn_p2_up}];#Sch name = JB1
+set_property src_info {type:XDC file:1 line:180 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A16   IOSTANDARD LVCMOS33 } [get_ports {btn_p2_down}];#Sch name = JB2
+set_property src_info {type:XDC file:1 line:181 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B15   IOSTANDARD LVCMOS33 } [get_ports {btn_p2_dash}];#Sch name = JB3
+set_property src_info {type:XDC file:1 line:184 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports {btn_p1_up}];#Sch name = JC1
+set_property src_info {type:XDC file:1 line:185 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN M18   IOSTANDARD LVCMOS33 } [get_ports {btn_p1_down}];#Sch name = JC2
+set_property src_info {type:XDC file:1 line:186 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN N17   IOSTANDARD LVCMOS33 } [get_ports {btn_p1_dash}];#Sch name = JC3
+set_property src_info {type:XDC file:1 line:189 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H2   IOSTANDARD LVCMOS33 } [get_ports {speaker_pin}] ;# JA9 핀
+set_property src_info {type:XDC file:1 line:192 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN G19   IOSTANDARD LVCMOS33 } [get_ports {vga_r[0]}]
+set_property src_info {type:XDC file:1 line:193 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H19   IOSTANDARD LVCMOS33 } [get_ports {vga_r[1]}]
+set_property src_info {type:XDC file:1 line:194 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN J19   IOSTANDARD LVCMOS33 } [get_ports {vga_r[2]}]
+set_property src_info {type:XDC file:1 line:195 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN N19   IOSTANDARD LVCMOS33 } [get_ports {vga_r[3]}]
+set_property src_info {type:XDC file:1 line:196 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN N18   IOSTANDARD LVCMOS33 } [get_ports {vga_b[0]}]
+set_property src_info {type:XDC file:1 line:197 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN L18   IOSTANDARD LVCMOS33 } [get_ports {vga_b[1]}]
+set_property src_info {type:XDC file:1 line:198 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN K18   IOSTANDARD LVCMOS33 } [get_ports {vga_b[2]}]
+set_property src_info {type:XDC file:1 line:199 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN J18   IOSTANDARD LVCMOS33 } [get_ports {vga_b[3]}]
+set_property src_info {type:XDC file:1 line:200 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN J17   IOSTANDARD LVCMOS33 } [get_ports {vga_g[0]}]
+set_property src_info {type:XDC file:1 line:201 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports {vga_g[1]}]
+set_property src_info {type:XDC file:1 line:202 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN G17   IOSTANDARD LVCMOS33 } [get_ports {vga_g[2]}]
+set_property src_info {type:XDC file:1 line:203 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D17   IOSTANDARD LVCMOS33 } [get_ports {vga_g[3]}]
+set_property src_info {type:XDC file:1 line:204 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN P19   IOSTANDARD LVCMOS33 } [get_ports hsync]
+set_property src_info {type:XDC file:1 line:205 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R19   IOSTANDARD LVCMOS33 } [get_ports vsync]

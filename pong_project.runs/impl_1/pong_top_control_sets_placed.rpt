@@ -1,0 +1,94 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Tue Mar 31 15:13:11 2026
+| Host         : kimyujeong-IdeaPad-1-15ALC7 running 64-bit Ubuntu 24.04.3 LTS
+| Command      : report_control_sets -verbose -file pong_top_control_sets_placed.rpt
+| Design       : pong_top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    59 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     7 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             112 |           80 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              24 |           13 |
+| Yes          | No                    | No                     |             110 |           71 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             103 |           56 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------+--------------------+------------------+----------------+--------------+
+|  Clock Signal  |         Enable Signal         |  Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-------------------------------+--------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG |                               |                    |                1 |              2 |         2.00 |
+|  clk_33M       |                               | rst_p_IBUF         |                4 |              4 |         1.00 |
+|  clk_33M       | p1_score                      | rst_p_IBUF         |                2 |              4 |         2.00 |
+|  clk_33M       | p1_y[11]_i_2_n_0              | p1_y[7]_i_1_n_0    |                2 |              4 |         2.00 |
+|  clk_33M       | p2_score                      | rst_p_IBUF         |                1 |              4 |         4.00 |
+|  clk_33M       | sound_gen/duration[3]_i_1_n_0 | hit_score          |                1 |              4 |         4.00 |
+|  clk_33M       | b1_dx[4]_i_1_n_0              |                    |                5 |              5 |         1.00 |
+|  clk_33M       | cur_dx1                       | cur_dx1[4]_i_1_n_0 |                3 |              5 |         1.67 |
+|  clk_33M       | p1_y[11]_i_2_n_0              | p1_y[11]_i_1_n_0   |                4 |              6 |         1.50 |
+|  clk_33M       |                               | rand_y[8]_i_1_n_0  |                3 |              9 |         3.00 |
+|  clk_33M       | v_cnt                         |                    |                5 |             10 |         2.00 |
+|  clk_33M       |                               | v_cnt              |                6 |             11 |         1.83 |
+|  clk_33M       | ball_y[8]_i_2_n_0             | ball_y[8]          |               13 |             32 |         2.46 |
+|  clk_33M       | aim/state_reg                 | p2_y[11]_i_1_n_0   |               30 |             44 |         1.47 |
+|  clk_33M       | aim/ball_x                    |                    |               61 |             95 |         1.56 |
+|  clk_33M       |                               |                    |               79 |            110 |         1.39 |
++----------------+-------------------------------+--------------------+------------------+----------------+--------------+
+
+

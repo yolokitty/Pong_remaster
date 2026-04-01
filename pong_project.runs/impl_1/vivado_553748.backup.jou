@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 31 15:11:40 2026
+# Process ID         : 553748
+# Current directory  : /home/kimyujeong/pong_project/pong_project.runs/impl_1
+# Command line       : vivado -log pong_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pong_top.tcl -notrace
+# Log file           : /home/kimyujeong/pong_project/pong_project.runs/impl_1/pong_top.vdi
+# Journal file       : /home/kimyujeong/pong_project/pong_project.runs/impl_1/vivado.jou
+# Running On         : kimyujeong-IdeaPad-1-15ALC7
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 5 5500U with Radeon Graphics
+# CPU Frequency      : 3256.286 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 14489 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 18784 MB
+# Available Virtual  : 12259 MB
+#-----------------------------------------------------------
+source pong_top.tcl -notrace
