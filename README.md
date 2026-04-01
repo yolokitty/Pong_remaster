@@ -1,4 +1,4 @@
-## 📘 프로젝트 상세 설명
+### 📘 프로젝트 상세 설명
 
 &nbsp;&nbsp;&nbsp;[![Notion](https://img.shields.io/badge/Notion-설명%20바로가기-black?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/33345465d271804ebc4cd4f49a135509)
 
